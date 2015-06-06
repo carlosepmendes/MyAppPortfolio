@@ -11,6 +11,8 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+    String message;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,9 +41,39 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    public void onClick(View v){
+    public void onClickBtn1(View v){
+        message = "This button will show the Spotify Streamer App";
+        showToast(message);
+    }
+
+    public void onClickBtn2(View v){
+        message = "This button will show the Football Scores App";
+        showToast(message);
+    }
+
+    public void onClickBtn3(View v){
+        message = "This button will show the Library App";
+        showToast(message);
+    }
+
+    public void onClickBtn4(View v){
+        message = "This button will show the Build It Bigger App";
+        showToast(message);
+    }
+
+    public void onClickBtn5(View v){
+        message = "This button will show the XYZ Reader App";
+        showToast(message);
+    }
+
+    public void onClickBtn6(View v){
+        message = "This button will show my Capstone App";
+        showToast(message);
+    }
+
+    public void showToast(String message){
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch the XYZ reader app!";
+        CharSequence text = message;
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);

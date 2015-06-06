@@ -11,8 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-
-    //Declare as class variables
+    //Declare class variables
     private String message;
     private Toast mAppToast;
 
@@ -21,33 +20,34 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    
-    public void onClickBtn1(View v){
+
+    //methods for each button to pass the correct message to the showToast
+    public void onClickBtnStreamer(View v){
         message = "This button will show the Spotify Streamer App";
         showToast(message);
     }
 
-    public void onClickBtn2(View v){
+    public void onClickBtnScores(View v){
         message = "This button will show the Football Scores App";
         showToast(message);
     }
 
-    public void onClickBtn3(View v){
+    public void onClickBtnLibrary(View v){
         message = "This button will show the Library App";
         showToast(message);
     }
 
-    public void onClickBtn4(View v){
+    public void onClickBtnBigger(View v){
         message = "This button will show the Build It Bigger App";
         showToast(message);
     }
 
-    public void onClickBtn5(View v){
+    public void onClickBtnXyz(View v){
         message = "This button will show the XYZ Reader App";
         showToast(message);
     }
 
-    public void onClickBtn6(View v){
+    public void onClickBtnCapstone(View v){
         message = "This button will show my Capstone App";
         showToast(message);
     }

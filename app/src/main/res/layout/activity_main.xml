@@ -10,64 +10,70 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:layout_marginTop="16dp"
+        android:layout_margin="@dimen/headingMargin"
         android:text="@string/title"
-        android:textSize="21sp"
+        android:textSize="@dimen/textSizeBig"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="200dp"
+        android:id="@+id/btnStreamer"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:background="#E3F2FD"
-        android:onClick="onClickBtn1"
-        android:text="@string/button1"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue100"
+        android:onClick="onClickBtnStreamer"
+        android:text="@string/btnStreamer"
+        android:textSize="@dimen/textSize"/>
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="200dp"
+        android:id="@+id/btnScores"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#BBDEFB"
-        android:onClick="onClickBtn2"
-        android:text="@string/button2"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue200"
+        android:onClick="onClickBtnScores"
+        android:text="@string/btnScores"
+        android:textSize="@dimen/textSize"/>
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="200dp"
+        android:id="@+id/btnLibrary"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#90CAF9"
-        android:onClick="onClickBtn3"
-        android:text="@string/button3"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue300"
+        android:onClick="onClickBtnLibrary"
+        android:text="@string/btnLibrary"
+        android:textSize="@dimen/textSize"/>
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="200dp"
+        android:id="@+id/btnBigger"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#64B5F6"
-        android:onClick="onClickBtn4"
-        android:text="@string/button4"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue400"
+        android:onClick="onClickBtnBigger"
+        android:text="@string/btnBigger"
+        android:textSize="@dimen/textSize"/>
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="200dp"
+        android:id="@+id/btnXyz"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#42A5F5"
-        android:onClick="onClickBtn5"
-        android:text="@string/button5"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue500"
+        android:onClick="onClickBtnXyz"
+        android:text="@string/btnXyz"
+        android:textSize="@dimen/textSize"/>
 
     <Button
-        android:id="@+id/button6"
-        android:layout_width="200dp"
+        android:id="@+id/btnCapstone"
+        android:layout_width="@dimen/buttonWidth"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:background="#2196F3"
-        android:onClick="onClickBtn6"
-        android:text="@string/button6"
-        android:textColor="@android:color/white"/>
+        android:layout_margin="@dimen/buttonMargin"
+        android:background="@color/blue600"
+        android:onClick="onClickBtnCapstone"
+        android:text="@string/btnCapstone"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/textSize"/>
 
 </LinearLayout>

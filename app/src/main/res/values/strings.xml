@@ -3,12 +3,12 @@
 
     <string name="title">My Nanodegree Apps!</string>
 
-    <string name="button1">Spotify Streamer</string>
-    <string name="button2">Football Scores App</string>
-    <string name="button3">Library App</string>
-    <string name="button4">Build It Bigger</string>
-    <string name="button5">XYZ Reader</string>
-    <string name="button6">Capstone</string>
+    <string name="btnStreamer">Spotify Streamer</string>
+    <string name="btnScores">Football Scores App</string>
+    <string name="btnLibrary">Library App</string>
+    <string name="btnBigger">Build It Bigger</string>
+    <string name="btnXyz">XYZ Reader</string>
+    <string name="btnCapstone">Capstone</string>
 
     <string name="action_settings">Settings</string>
 </resources>

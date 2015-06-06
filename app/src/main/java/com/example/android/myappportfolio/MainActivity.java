@@ -51,7 +51,8 @@ public class MainActivity extends AppCompatActivity {
         message = "This button will show my Capstone App";
         showToast(message);
     }
-
+    
+    // Accept a string, stop any toast active and create a new toast
     public void showToast(String msg){
 
         //Stop any previous toasts
@@ -64,6 +65,5 @@ public class MainActivity extends AppCompatActivity {
         mAppToast.show();
 
     }
-
 
 }

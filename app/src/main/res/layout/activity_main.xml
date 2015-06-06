@@ -8,66 +8,66 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:text="@string/title"
-        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginBottom="32dp"
-        android:textSize="21sp" />
+        android:layout_marginTop="16dp"
+        android:text="@string/title"
+        android:textSize="21sp"
+        android:textStyle="bold" />
 
     <Button
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:text="@string/button1"
-        android:background="#E3F2FD"
         android:id="@+id/button"
-        android:onClick="onClickBtn1"/>
-
-    <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/button2"
-        android:background="#BBDEFB"
-        android:layout_marginTop="16dp"
+        android:background="#E3F2FD"
+        android:onClick="onClickBtn1"
+        android:text="@string/button1"/>
+
+    <Button
         android:id="@+id/button2"
-        android:onClick="onClickBtn2"/>
-
-    <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/button3"
-        android:background="#90CAF9"
         android:layout_marginTop="16dp"
+        android:background="#BBDEFB"
+        android:onClick="onClickBtn2"
+        android:text="@string/button2"/>
+
+    <Button
         android:id="@+id/button3"
-        android:onClick="onClickBtn3"/>
-
-    <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/button4"
-        android:background="#64B5F6"
         android:layout_marginTop="16dp"
+        android:background="#90CAF9"
+        android:onClick="onClickBtn3"
+        android:text="@string/button3"/>
+
+    <Button
         android:id="@+id/button4"
-        android:onClick="onClickBtn4"/>
-
-    <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/button5"
-        android:background="#42A5F5"
         android:layout_marginTop="16dp"
+        android:background="#64B5F6"
+        android:onClick="onClickBtn4"
+        android:text="@string/button4"/>
+
+    <Button
         android:id="@+id/button5"
-        android:onClick="onClickBtn5"/>
-
-    <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:text="@string/button6"
-        android:textColor="@android:color/white"
-        android:background="#2196F3"
         android:layout_marginTop="16dp"
+        android:background="#42A5F5"
+        android:onClick="onClickBtn5"
+        android:text="@string/button5"/>
+
+    <Button
         android:id="@+id/button6"
-        android:onClick="onClickBtn6"/>
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#2196F3"
+        android:onClick="onClickBtn6"
+        android:text="@string/button6"
+        android:textColor="@android:color/white"/>
 
 </LinearLayout>
